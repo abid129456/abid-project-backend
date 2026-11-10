@@ -1,12 +1,10 @@
 import express from "express"
 
-// import studentRouter from "./src/routes/student.routes.js"
 
 import studentRouter from "./routes/student.routes.js"
 
 const app = express();
 
-// const port = process.env.PORT || 5000;
 
 app.use(express.json());
 
